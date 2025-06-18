@@ -38,17 +38,15 @@ To develop a predictive model that estimates the fuel efficiency of an engine us
 ## ⚙️ Machine Learning Models
 
 Two models were trained and evaluated:
-
 ### 🔹 Random Forest Regressor
-- Tree-based ensemble model
-- Robust against overfitting
-- Shows feature importance
-- **Currently the best performing model**
+- High accuracy and interpretable.
+- Performs well on tabular data.
+- Used for confidence interval estimation.
 
-### 🔹 Deep Neural Network (DNN)
-- Implemented using TensorFlow
-- Currently **not giving accurate results**
-- **Note**: _I will try my level best to fix the DNN model in future iterations._
+### 🔹 Deep Neural Network (DNN) ✅
+- Recently fixed and now performs well.
+- Learns complex relationships in the data.
+- Slightly lower performance than RF in some cases, but improving.(DNN Model have been fixed)
 
 ---
 

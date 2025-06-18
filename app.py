@@ -17,7 +17,7 @@ rf_r2_score = 0.9770531030688017   #actual RF R² score
 st.set_page_config(page_title="Fuel Efficiency Predictor", layout="centered")
 st.title("🚗 Fuel Efficiency Predictor")
 st.markdown("Predict fuel efficiency using engine data. You can compare results from Random Forest and DNN models.")
-st.warning("⚠️ Note: DNN model predictions may be inaccurate. Prefer Random Forest for reliable results.")
+st.info("✅ Note: DNN model has been fixed and now provides reliable predictions.")
 
 # Model selection
 model_choice = st.radio("Select Model", ["Random Forest", "Deep Neural Network (DNN)"])
